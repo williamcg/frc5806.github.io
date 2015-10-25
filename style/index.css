@@ -1,15 +1,24 @@
 body {
 	font-family: "Helvetica Neue", Helvetica, "Arial", sans-serif;
+	background-color: #fffaf0;
 }
-/*	Not neccesary
+
+::selection {
+  background: #800000;
+}
+
+::-moz-selection {
+  background: #800000;
+}
+
 a:link {
-	color: #0645AD;
+	color: #800000;
 }
 
 a:visited {
-	color: #0645AD;
+	color: #bf7f7f;
 }
-*/
+
 
 p, ul {
 	color: #333;
@@ -25,23 +34,22 @@ hr {
 
 .heading {
 	margin-top:-20px;
-	color: #F8F8F8;
+	color: #fffaf0;
 	padding: 100px 10px;
 	text-align: center;
-	background-image: url("../image/teampic.png");
+	background-image: url("http://i.imgur.com/BwNJSre.png");
 	background-size:cover;
 	text-shadow: 0px 2px 3px #555;
 }
 
 .lead {
-	color:#F8F8F8;
+	color:#fffaf0;
 }
 
-
-.about {
-	background-color: rgb(94,165,178);
-	padding: 15px;
-	padding-left: 30px;
+.row {
+	padding-left:70px;
+	padding-right:70px;
+	padding-top:40px;
 }
 
 .contact {
