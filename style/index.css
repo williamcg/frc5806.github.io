@@ -1,14 +1,20 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+
 body {
 	font-family: "Helvetica Neue", Helvetica, "Arial", sans-serif;
 	background-color: #fffaf0;
+	width:100%;
 }
 
 ::selection {
-  background: #800000;
+	background: #800000;
 }
 
 ::-moz-selection {
-  background: #800000;
+	background: #800000;
 }
 
 a:link {
@@ -17,19 +23,6 @@ a:link {
 
 a:visited {
 	color: #bf7f7f;
-}
-
-
-p, ul {
-	color: #333;
-}
-
-hr {
-	color: #333;
-	border: 0;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border-top: 1px solid #838383;
 }
 
 .heading {
@@ -46,14 +39,28 @@ hr {
 	color:#fffaf0;
 }
 
-.row {
-	padding-left:70px;
-	padding-right:70px;
-	padding-top:40px;
+footer {
+    text-align: center;
 }
 
-.contact {
-	background-color: rgb(120, 233, 138);
-	padding: 15px;
-	padding-left: 30px;
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
 }
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #800000;
+}
+
