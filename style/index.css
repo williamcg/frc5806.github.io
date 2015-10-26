@@ -36,7 +36,7 @@ a:visited {
 	text-align: center;
 	background-image: url("http://i.imgur.com/BwNJSre.png");
 	background-size:cover;
-	text-shadow: 0px 2px 3px #555;
+	/* text-shadow: 0px 2px 3px #555; */
 }
 
 .robotHeading {
