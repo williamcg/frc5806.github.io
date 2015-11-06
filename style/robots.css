@@ -1,0 +1,67 @@
+html, body {
+	margin:0;
+	padding:0;
+	width: auto !important;
+	overflow-x: hidden !important;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, "Arial", sans-serif;
+	background-color: #fffaf0;
+	width:100%;
+}
+
+::selection {
+	background: #800000;
+}
+
+::-moz-selection {
+	background: #800000;
+}
+
+a:link {
+	color: #800000;
+}
+
+a:visited {
+	color: #bf7f7f;
+}
+
+.heading {
+	margin-top:-20px;
+	color: #fffaf0;
+	padding: 100px 10px;
+	text-align: center;
+	background-image: url("http://media.team254.com/2013/03/2356055b-2013-254-Robot.jpg");
+	background-size:cover;
+	text-shadow: 0px 2px 3px #555;
+}
+
+.lead {
+	color:#fffaf0;
+}
+
+footer {
+	text-align: center;
+}
+
+ul.social-buttons li a {
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	font-size: 20px;
+	line-height: 40px;
+	outline: 0;
+	color: #fff;
+	background-color: #222;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+	background-color: #800000;
+}
