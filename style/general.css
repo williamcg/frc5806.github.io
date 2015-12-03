@@ -1,0 +1,34 @@
+/* GENERAL PAGE RULES */
+
+.container {
+	margin-top: 50px;
+}
+
+a {
+	color:#660000;
+}
+
+a:hover {
+	color:#400000;
+}
+
+/* NAVBAR */
+
+#navbar #nav {
+	margin: 10px 0 0 0;
+	text-align:right;
+}
+
+#navbar ul li {
+	display: inline;
+	margin: 0 20px 0 0;
+	margin-bottom: 130px;
+}
+
+#navbar a {
+	text-decoration: none;
+}
+
+#navbar a:hover {
+	text-decoration: underline;
+}

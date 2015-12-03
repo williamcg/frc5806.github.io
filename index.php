@@ -12,12 +12,17 @@
 
 	<link rel="stylesheet" href="lib/normalize.css" />
 	<link rel="stylesheet" href="lib/skeleton.css" />
+
+	<link rel="stylesheet" href="style/general.css" />
 </head>
 
 <body>
 
-Hello world.
+	<div class="container">
+		<?php include 'includes/navbar.php' ?>
+	</div>
 
+	<script src="script/index.js"></script>
 </body>
 
 </html>
