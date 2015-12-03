@@ -1,0 +1,13 @@
+#header {
+	margin-top:2rem;
+}
+
+#header img {
+	margin-bottom: 50px;
+	max-width: 100%;
+	height: auto;
+}
+
+#welcome {
+	margin-bottom: 20px;
+}
