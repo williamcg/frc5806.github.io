@@ -97,3 +97,12 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
 	background-color: #800000;
 }
+
+.jumbotron {
+	height: 300px;
+}
+
+.middlePanels {
+	margin-left: 30px;
+	margin-right: 30px;
+}
