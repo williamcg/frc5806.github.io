@@ -8,7 +8,7 @@ html, body {
 body {
 	font-family: "Helvetica Neue", Helvetica, "Arial", sans-serif;
 	width:100%;
-	background-image: url("https://pixabay.com/get/ec36b50621f51c3e955b4c07e3484191fe76e6d01ab2134593f2c4/gears-534991.jpg");
+	background-image: url("image/background.png");
 }
 
 ::selection {
