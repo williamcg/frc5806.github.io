@@ -28,7 +28,7 @@ a:visited {
 	color: #bf7f7f;
 }
 
-.heading {
+/*.heading {
 	color: #fffaf0;
 	padding: 100px 10px;
 	text-align: center;
@@ -36,9 +36,8 @@ a:visited {
 	background-size:cover;
 	/* text-shadow: 0px 2px 3px #555; */
 }
-
-.robotHeading {
-	margin-top:-20px;
+*/
+/*.robotHeading {
 	color: #fffaf0;
 	padding: 100px 10px;
 	text-align: center;
@@ -49,14 +48,13 @@ a:visited {
 
 
 .outreachHeading {
-	margin-top:-20px;
 	color: #fffaf0;
 	padding: 100px 10px;
 	text-align: center;
 	background-image: url("http://i.imgur.com/wGYoZXc.jpg");
 	background-size:cover;
 	text-shadow: 0px 2px 3px #555;
-}
+}*/
 
 .lead {
 	color:#fffaf0;
